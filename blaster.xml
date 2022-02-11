@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Build and Core -->
+    <project path="art" name="art" remote="blaster" />
+    <project path="bionic" name="bionic" remote="blaster" />
+    <project path="build/make" name="build" remote="blaster">
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/soong" name="build_soong" remote="blaster">
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <!-- Bootable -->
+    <project path="bootable/recovery" name="bootable_recovery" remote="blaster" />
+
+    <!-- Device -->
+    <project path="device/qcom/common" name="device_qcom_common" remote="blaster">
+        <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
+    </project>
+    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="blaster" />
+    <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="blaster" />
+    <project path="device/qcom/kernelscripts" name="kernel_build" remote="blaster">
+        <linkfile dest="vendor/qcom/build/tasks/kernel_definitions.mk" src="kernel_definitions.mk" />
+    </project>
+
+    <!-- External -->
+    <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="blaster" />
+    <project path="external/exfatprogs" name="external_exfatprogs" remote="blaster" />
+    <project path="external/fastrpc" name="external_fastrpc" remote="blaster" />
+    <project path="external/scudo" name="external_scudo" remote="blaster" />
+
+    <!-- External (ProtonAOSP) -->
+    <project path="external/colorkt" name="external_colorkt" remote="blaster" />
+    <project path="external/themelib" name="external_themelib" remote="blaster" />
+
+    <!-- Frameworks -->
+    <project path="frameworks/base" name="frameworks_base" remote="blaster" />
+    <project path="frameworks/native" name="frameworks_native" remote="blaster" />
+
+    <!-- Hardware -->
+    <project path="hardware/interfaces" name="hardware_interfaces" remote="blaster" />
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="blaster" />
+    <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="blaster" />
+  
+    <!-- Manifest -->
+    <project path="manifest" name="manifest" remote="blaster" />
+
+    <!-- Packages -->
+    <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaster" />
+    <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaster" />
+    <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaster" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaster" />
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaster" />
+
+    <!-- System -->
+    <project path="system/core" name="system_core" remote="blaster" />
+    <project path="system/memory/lmkd" name="system_memory_lmkd" remote="blaster" />
+    <project path="system/sepolicy" name="system_sepolicy" remote="blaster" />
+    <project path="system/vold" name="system_vold" remote="blaster" />
+
+    <!-- Tools -->
+    <project path="tools/extract-utils" name="tools_extract-utils" remote="blaster" />
+
+    <!-- Vendor -->
+    <project path="vendor/gms" name="platform_vendor_gms" remote="blaster-gitlab" />
+    <project path="vendor/blaster" name="vendor_blaster" remote="blaster">
+        <linkfile src="build.sh" dest="rom-build.sh" />
+    </project>
+    <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
+    <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="12" />
+    <project path="vendor/nxp/opensource/halimpl" name="vendor_nxp_opensource_halimpl" remote="blaster" />
+    <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom-opensource_bluetooth-commonsys-intf" remote="blaster" />
+    <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" remote="blaster" />
+    <project path="vendor/qcom/opensource/commonsys-intf/display" name="vendor_qcom_opensource_commonsys-intf_display" remote="blaster">
+        <linkfile dest="vendor/qcom/defs/product-defs/system/display-product-system.mk" src="config/display-product-system.mk" />
+        <linkfile dest="vendor/qcom/defs/product-defs/vendor/display-interfaces-product.mk" src="config/display-interfaces-product.mk" />
+    </project>
+    <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="blaster" />
+    <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom-opensource_vibrator" remote="blaster" />
+</manifest>

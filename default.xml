@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- AOSP -->
+    <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" revision="refs/tags/android-12.0.0_r2" />
+
+    <!-- CAF -->
+    <remote name="caf_system" fetch="https://source.codeaurora.org/quic/la" review="codeaurora.org" />
+    <remote name="caf_vendor" fetch="https://source.codeaurora.org/quic/la" review="codeaurora.org" revision="refs/tags/LA.UM.9.14.r1-18600.02-LAHAINA.QSSI12.0" />
+    <default revision="refs/tags/LA.QSSI.12.0.r1-05800.01-qssi.0" remote="caf_system" />
+    <include name="system.xml" />
+    <include name="vendor.xml" />
+
+    <!-- Custom -->
+    <remote name="blaster" fetch="https://github.com/PixelBlaster-CAF" revision="12" />
+    <remote name="blaster-gitlab" fetch="https://gitlab.com/Blaster4385" />
+    <remote name="blobs" fetch="https://github.com/ThankYouMario" revision="sapphire" />
+    <remote name="github" fetch="https://github.com" />
+    <remote name="github-ssh" fetch="ssh://git@github.com" />
+    <include name="blaster.xml" />
+    <include name="remove.xml" />
+</manifest>
