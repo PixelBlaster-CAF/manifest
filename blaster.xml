@@ -53,6 +53,7 @@
     <project path="manifest" name="manifest" remote="blaster" />
 
     <!-- Packages -->
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaster" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaster" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaster" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaster" />
