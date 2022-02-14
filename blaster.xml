@@ -85,4 +85,5 @@
     </project>
     <project path="vendor/qcom/opensource/power" name="vendor_qcom-opensource_power" remote="blaster" />
     <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom-opensource_vibrator" remote="blaster" />
+    <project path="vendor/support" name="vendor_support" remote="blaster" />
 </manifest>
