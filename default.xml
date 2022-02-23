@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- AOSP -->
-    <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" revision="refs/tags/android-12.0.0_r2" />
+    <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" revision="refs/tags/android-12.0.0_r29" />
 
     <!-- CAF -->
     <remote name="caf_system" fetch="https://source.codeaurora.org/quic/la" review="codeaurora.org" />
