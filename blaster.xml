@@ -66,6 +66,7 @@
     <project path="system/memory/lmkd" name="system_memory_lmkd" remote="blaster" />
     <project path="system/sepolicy" name="system_sepolicy" remote="blaster" />
     <project path="system/vold" name="system_vold" remote="blaster" />
+    <project path="system/update_engine" name="system_update_engine" remote="blaster" />
 
     <!-- Tools -->
     <project path="tools/extract-utils" name="tools_extract-utils" remote="blaster" />
