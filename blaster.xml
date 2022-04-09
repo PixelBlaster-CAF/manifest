@@ -61,6 +61,7 @@
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaster" caf="platform/packages/apps/SettingsIntelligence" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaster" caf="platform/packages/apps/ThemePicker"/>
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaster" caf="platform/packages/services/Telephony"/>
+    <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaster" caf="platform/packages/modules/Connectivity"/>
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="blaster" caf="platform/system/core"/>
