@@ -37,6 +37,7 @@
     <project path="external/exfatprogs" name="external_exfatprogs" remote="blaster" />
     <project path="external/fastrpc" name="external_fastrpc" remote="blaster" caf="platform/external/fastrpc"/>
     <project path="external/scudo" name="external_scudo" remote="blaster" caf="external/scudo"/>
+    <project name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" />
 
     <!-- External (ProtonAOSP) -->
     <project path="external/colorkt" name="external_colorkt" remote="blaster" />
