@@ -38,6 +38,7 @@
     <project path="external/fastrpc" name="external_fastrpc" remote="blaster" caf="platform/external/fastrpc"/>
     <project path="external/scudo" name="external_scudo" remote="blaster" caf="external/scudo"/>
     <project name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" />
+    <project name="external_faceunlock" path="external/faceunlock" remote="blaster-gitlab" />
 
     <!-- External (ProtonAOSP) -->
     <project path="external/colorkt" name="external_colorkt" remote="blaster" />
@@ -63,6 +64,8 @@
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaster" caf="platform/packages/apps/ThemePicker"/>
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaster" caf="platform/packages/services/Telephony"/>
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaster" caf="platform/packages/modules/Connectivity"/>
+    <project name="packages_apps_faceunlockservice" path="packages/apps/faceunlockservice" remote="blaster-gitlab" />
+    <project name="packages_modules_adb" path="packages/modules/adb" remote="blaster" />
 
     <!-- System -->
     <project path="system/core" name="system_core" remote="blaster" caf="platform/system/core"/>
@@ -75,7 +78,7 @@
     <project path="tools/extract-utils" name="tools_extract-utils" remote="blaster" />
 
     <!-- Vendor -->
-    <project path="vendor/gms" name="platform_vendor_gms" remote="blaster-gitlab" revision="12" />
+    <project path="vendor/gms" name="platform_vendor_gms" remote="blaster-gitlab" />
     <project path="vendor/blaster" name="vendor_blaster" remote="blaster">
         <linkfile src="build.sh" dest="rom-build.sh" />
     </project>

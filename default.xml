@@ -12,7 +12,7 @@
 
     <!-- Custom -->
     <remote name="blaster" fetch="https://github.com/PixelBlaster-CAF" revision="12.1" />
-    <remote name="blaster-gitlab" fetch="https://gitlab.com/Blaster4385" />
+    <remote name="blaster-gitlab" fetch="https://gitlab.com/Blaster4385" revision="12.1" />
     <remote name="blobs" fetch="https://github.com/ThankYouMario" revision="sapphire" />
     <remote name="github" fetch="https://github.com" />
     <remote name="github-ssh" fetch="ssh://git@github.com" />
