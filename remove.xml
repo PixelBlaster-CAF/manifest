@@ -41,6 +41,7 @@
 
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
+  <remove-project name="platform/external/erofs-utils" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/chromium-webview" />
   <remove-project name="platform/external/scudo" />

@@ -42,6 +42,7 @@
 
     <!-- External (ProtonAOSP) -->
     <project path="external/colorkt" name="external_colorkt" remote="blaster" />
+    <project path="external/erofs-utils" name="platform/external/erofs-utils" remote="aosp" revision="75d73335d25d52afd6a09c116207cd09bece16ab" />
     <project path="external/themelib" name="external_themelib" remote="blaster" />
 
     <!-- Frameworks -->
