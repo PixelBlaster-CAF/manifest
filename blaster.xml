@@ -3,7 +3,7 @@
     <!-- Build and Core -->
     <project path="art" name="art" remote="blaster" caf="platform/art"/>
     <project path="bionic" name="bionic" remote="blaster" caf="platform/bionic"/>
-    <project path="build/make" name="build" remote="blaster" caf="platform/build">
+    <project path="build/make" name="build" remote="blaster" caf="platform/build_repo">
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
