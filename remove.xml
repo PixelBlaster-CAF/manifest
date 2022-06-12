@@ -104,6 +104,7 @@
   <remove-project name="platform/system/update_engine" />
 
   <!-- Vendor -->
+  <remove-project name="platform/vendor/codeaurora/telephony" />
   <remove-project name="platform/packages/apps/Mms" />
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
   <remove-project name="platform/packages/apps/SnapdragonMusic" />
