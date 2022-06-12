@@ -18,6 +18,7 @@
     </project>
     <project path="libcore" name="libcore" remote="blaster" caf="platform/libcore"/>
     <project path="cts" name="platform/cts" remote="aosp" />
+    <project path="platform_testing" name="platform_testing" remote="blaster" />
 
     <!-- Bootable -->
     <project path="bootable/recovery" name="bootable_recovery" remote="blaster" caf="platform/bootable/recovery"/>
