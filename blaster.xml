@@ -33,6 +33,7 @@
     </project>
 
     <!-- External -->
+    <project path="external/aac" name="external_aac" remote="blaster" caf="platform/external/aac"/>
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="blaster" caf="platform/external/arm-optimized-routines"/>
     <project path="external/exfatprogs" name="external_exfatprogs" remote="blaster" />
     <project path="external/fastrpc" name="external_fastrpc" remote="blaster" caf="platform/external/fastrpc"/>
@@ -58,8 +59,10 @@
     <project path="manifest" name="manifest" remote="blaster" />
 
     <!-- Packages -->
+    <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="blaster" caf="platform/packages/apps/EmergencyInfo" />
     <project path="packages/apps/Explosives" name="packages_apps_Explosives" remote="blaster" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaster" />
+    <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="blaster" caf="platform/packages/apps/ManagedProvisioning" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaster" caf="platform/packages/apps/Settings" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="blaster" caf="platform/packages/apps/SettingsIntelligence" />
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaster" caf="platform/packages/apps/ThemePicker"/>
@@ -72,6 +75,7 @@
     <!-- System -->
     <project path="system/core" name="system_core" remote="blaster" caf="platform/system/core"/>
     <project path="system/memory/lmkd" name="system_memory_lmkd" remote="blaster" caf="platform/system/memory/lmkd"/>
+    <project path="system/nfc" name="system_nfc" remote="blaster" caf="platform/system/nfc"/>
     <project path="system/sepolicy" name="system_sepolicy" remote="blaster" caf="platform/system/sepolicy"/>
     <project path="system/vold" name="system_vold" remote="blaster" caf="platform/system/vold"/>
     <project path="system/update_engine" name="system_update_engine" remote="blaster" caf="platform/system/update_engine"/>
