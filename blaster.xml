@@ -89,6 +89,7 @@
     <project path="vendor/gms" name="platform_vendor_gms" remote="blaster-gitlab" />
     <project path="vendor/blaster" name="vendor_blaster" remote="blaster">
         <linkfile src="build.sh" dest="rom-build.sh" />
+        <linkfile src="ota.sh" dest="ota.sh" />
     </project>
     <project path="vendor/qcom/common" name="proprietary_vendor_qcom_common" remote="blobs" />
     <project path="vendor/qcom/sdclang" name="proprietary_vendor_qcom_sdclang" remote="blobs" revision="12" />
