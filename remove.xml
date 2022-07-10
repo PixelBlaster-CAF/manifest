@@ -49,6 +49,7 @@
   <remove-project name="platform/external/scudo" />
 
   <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
 
@@ -82,6 +83,7 @@
 
   <!-- Packages -->
   <remove-project name="platform/packages/apps/EmergencyInfo" />
+  <remove-project name="platform/packages/apps/KeyChain" />
   <remove-project name="platform/packages/apps/ManagedProvisioning" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
@@ -90,6 +92,7 @@
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/modules/Connectivity" />
   <remove-project name="platform/packages/modules/adb" />
+  <remove-project name="platform/packages/providers/ContactsProvider" />
 
   <!-- Prebuilts -->
   <remove-project name="platform/prebuilts/android-emulator" />

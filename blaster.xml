@@ -49,6 +49,7 @@
     <project path="external/themelib" name="external_themelib" remote="blaster" />
 
     <!-- Frameworks -->
+    <project path="frameworks/av" name="frameworks_av" remote="blaster" caf="platform/frameworks/av"/>
     <project path="frameworks/base" name="frameworks_base" remote="blaster" caf="platform/frameworks/base"/>
     <project path="frameworks/native" name="frameworks_native" remote="blaster" caf="platform/frameworks/native"/>
 
@@ -63,6 +64,7 @@
     <!-- Packages -->
     <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="blaster" caf="platform/packages/apps/EmergencyInfo" />
     <project path="packages/apps/Explosives" name="packages_apps_Explosives" remote="blaster" />
+    <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="blaster" caf="platform/packages/apps/KeyChain" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaster" />
     <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="blaster" caf="platform/packages/apps/ManagedProvisioning" />
     <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaster" caf="platform/packages/apps/Settings" />
@@ -72,6 +74,7 @@
     <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaster" caf="platform/packages/modules/Connectivity"/>
     <project name="packages_apps_faceunlockservice" path="packages/apps/faceunlockservice" remote="blaster-gitlab" />
     <project name="packages_modules_adb" path="packages/modules/adb" remote="blaster" />
+    <project name="packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" remote="blaster" caf="platform/packages/providers/ContactsProvider" />
     <project name="packages_apps_Updater" path="packages/apps/Updater" remote="blaster" />
 
     <!-- System -->
