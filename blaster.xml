@@ -64,6 +64,7 @@
     <!-- Packages -->
     <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="blaster" caf="platform/packages/apps/EmergencyInfo" />
     <project path="packages/apps/Explosives" name="packages_apps_Explosives" remote="blaster" />
+    <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaster" />
     <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" remote="blaster" caf="platform/packages/apps/KeyChain" />
     <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaster" />
     <project path="packages/apps/ManagedProvisioning" name="packages_apps_ManagedProvisioning" remote="blaster" caf="platform/packages/apps/ManagedProvisioning" />
