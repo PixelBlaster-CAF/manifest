@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- AOSP -->
+  <remote name="aosp"
+          fetch="https://android.googlesource.com"
+          sync-c="true"
+          sync-tags="false"
+          review="https://android-review.googlesource.com/"
+          revision="refs/tags/android-13.0.0_r5"/>
+
+  <!-- CLO -->
+  <remote name="clo_system"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"/>
+
+  <remote name="clo_vendor"
+          fetch="https://git.codelinaro.org/clo/la"
+          sync-c="true"
+          sync-tags="false"
+          review="codelinaro.org"
+          revision="refs/tags/LA.UM.9.14.2.r1-02800-QCM6490.QSSI12.0"/>
+
+  <default revision="refs/tags/LA.QSSI.13.0.r1-07100-qssi.0"
+           remote="clo_system"/>
+
+  <!-- AOSPA -->
+  <remote  name="blaster"
+           fetch="https://github.com/PixelBlaster-CAF"
+           revision="13"/>
+
+  <remote  name="blaster-gitlab"
+           fetch="https://gitlab.com/Blaster4385/"
+           revision="13"/>
+
+  <remote  name="blobs"
+           fetch="https://github.com/ThankYouMario"
+           revision="topaz" />
+
+  <remote  name="blobs-gitlab"
+           fetch="https://gitlab.com/ThankYouMario"
+           revision="topaz" />
+
+  <remote  name="github"
+           fetch="https://github.com" />
+
+  <remote  name="github-ssh"
+           fetch="ssh://git@github.com" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
+
+  <include name="system.xml"/>
+  <include name="vendor.xml"/>
+  <include name="remove.xml"/>
+  <include name="blaster.xml"/>
+
+</manifest>
