@@ -44,7 +44,9 @@
   <project path="external/zlib" name="external_zlib" remote="blaster" />
 
   <!-- Frameworks -->
+  <project path="frameworks/av" name="frameworks_av" remote="blaster" caf="platform/frameworks/av" />
   <project path="frameworks/base" name="frameworks_base" remote="blaster" caf="platform/frameworks/base" />
+  <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="blaster" caf="platform/frameworks/libs/systemui" />
   <project path="frameworks/native" name="frameworks_native" remote="blaster" caf="platform/frameworks/native" />
 
   <!-- Hardware -->
@@ -68,8 +70,12 @@
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaster" caf="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="blaster" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="blaster" caf="platform/packages/modules/Bluetooth" />
+  <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaster" caf="platform/packages/modules/Connectivity" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="blaster" caf="platform/packages/modules/Permission" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="blaster" caf="platform/packages/modules/Wifi" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="blaster" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaster" caf="platform/packages/services/Telecomm" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaster" caf="platform/packages/services/Telephony" />
   <project path="packages/services/VncFlinger" name="packages_services_VncFlinger" remote="blaster" />
 
   <!-- Prebuilts -->
@@ -82,6 +88,7 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="blaster" caf="platform/system/core" />
+  <project path="system/media" name="system_media" remote="blaster" caf="platform/system/media" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="blaster" caf="platform/system/memory/lmkd" />
   <project path="system/update_engine" name="system_update_engine" remote="blaster" caf="platform/system/update_engine"/>
 

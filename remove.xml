@@ -54,7 +54,9 @@
   <remove-project name="platform/external/zlib" />
 
   <!-- Frameworks -->
+  <remove-project name="platform/frameworks/av" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/libs/systemui" />
   <remove-project name="platform/frameworks/native" />
 
   <!-- Hardware (NXP) -->
@@ -90,8 +92,12 @@
   <remove-project name="platform/packages/apps/ThemePicker" />
   <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/packages/modules/Bluetooth" />
+  <remove-project name="platform/packages/modules/Connectivity" />
+  <remove-project name="platform/packages/modules/Permission" />
+  <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
 
   <!-- Prebuilts -->
   <remove-project name="kernel/prebuilts/4.19/arm64"/>
@@ -113,6 +119,7 @@
 
   <!-- System -->
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/update_engine" />
 
