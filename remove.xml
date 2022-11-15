@@ -49,6 +49,8 @@
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/libjpeg-turbo" />
+  <remove-project name="platform/external/rust/crates/ring" />
+  <remove-project name="platform/external/rust/cxx" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
@@ -116,9 +118,13 @@
   <remove-project name="kernel/prebuilts/mainline/arm64"/>
   <remove-project name="platform/prebuilts/android-emulator" />
   <remove-project name="platform/prebuilts/qemu-kernel" />
+  <remove-project name="platform/prebuilts/rust" />
 
   <!-- System -->
+  <remove-project name="platform/system/apex" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/linkerconfig" />
+  <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
   <remove-project name="platform/system/update_engine" />

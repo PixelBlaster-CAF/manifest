@@ -38,6 +38,8 @@
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="blaster" caf="platform/external/arm-optimized-routines"/>
   <project path="external/fastrpc" name="external_fastrpc" remote="blaster" caf="platform/external/fastrpc" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="blaster" caf="platform/external/libjpeg-turbo" />
+  <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="blaster" caf="platform/external/rust/crates/ring"/>
+  <project path="external/rust/cxx" name="external_rust_cxx" remote="blaster" caf="platform/external/rust/cxx"/>
   <project path="external/sqlite" name="external_sqlite" remote="blaster" caf="platform/external/sqlite"/>
   <project path="external/tigervnc" name="external_tigervnc" remote="blaster" />
   <project path="external/tinycompress" name="external_tinycompress" remote="blaster" />
@@ -82,12 +84,17 @@
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="blaster" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" clone-depth="1" remote="blaster" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" clone-depth="1" remote="blaster" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r468909" name="yaosp/prebuilts_clang_host_linux-x86_clang-r468909" remote="gitlab" revision="master" clone-depth="1" />
+  <project path="prebuilts/rust" name="yaosp/prebuilts_rust" remote="gitlab" revision="thirteen" caf="platform/prebuilts/rust"/>
 
   <!-- Repainter (kdrag0n) -->
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
 
   <!-- System -->
+  <project path="system/apex" name="system_apex" remote="blaster" caf="platform/system/apex"/>
   <project path="system/core" name="system_core" remote="blaster" caf="platform/system/core" />
+  <project path="system/linkerconfig" name="system_linkerconfig" remote="blaster" caf="platform/system/linkerconfig"/>
+  <project path="system/logging" name="system_logging" remote="blaster" caf="platform/system/logging"/>
   <project path="system/media" name="system_media" remote="blaster" caf="platform/system/media" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="blaster" caf="platform/system/memory/lmkd" />
   <project path="system/update_engine" name="system_update_engine" remote="blaster" caf="platform/system/update_engine"/>
