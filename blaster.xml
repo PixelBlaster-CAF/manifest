@@ -49,6 +49,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="blaster" caf="platform/frameworks/av" />
   <project path="frameworks/base" name="frameworks_base" remote="blaster" caf="platform/frameworks/base" />
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="blaster" caf="platform/frameworks/libs/systemui" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="blaster" caf="platform/frameworks/opt/telephony" />
   <project path="frameworks/native" name="frameworks_native" remote="blaster" caf="platform/frameworks/native" />
 
   <!-- Hardware -->
@@ -66,6 +67,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="blaster" />
+  <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaster" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaster" caf="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaster" caf="platform/packages/apps/Settings"/>
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="blaster" caf="platform/packages/apps/Stk" />
