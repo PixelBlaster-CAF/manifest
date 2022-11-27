@@ -73,6 +73,7 @@
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="blaster" caf="platform/packages/apps/Stk" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaster" caf="platform/packages/apps/ThemePicker" />
   <project path="packages/apps/Updater" name="packages_apps_Updater" remote="blaster" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="blaster" caf="platform/packages/modules/adb" />
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="blaster" caf="platform/packages/modules/Bluetooth" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaster" caf="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="blaster" caf="platform/packages/modules/Permission" />
