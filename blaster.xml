@@ -78,6 +78,7 @@
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="blaster" caf="platform/packages/modules/Connectivity" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="blaster" caf="platform/packages/modules/Permission" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="blaster" caf="platform/packages/modules/Wifi" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="blaster" caf="platform/packages/providers/DownloadProvider" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="blaster" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="blaster" caf="platform/packages/services/Telecomm" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="blaster" caf="platform/packages/services/Telephony" />
@@ -100,6 +101,7 @@
   <project path="system/logging" name="system_logging" remote="blaster" caf="platform/system/logging"/>
   <project path="system/media" name="system_media" remote="blaster" caf="platform/system/media" />
   <project path="system/memory/lmkd" name="system_memory_lmkd" remote="blaster" caf="platform/system/memory/lmkd" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="blaster" caf="platform/system/sepolicy" />
   <project path="system/update_engine" name="system_update_engine" remote="blaster" caf="platform/system/update_engine"/>
 
   <!-- Tools -->

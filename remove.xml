@@ -100,6 +100,7 @@
   <remove-project name="platform/packages/modules/Permission" />
   <remove-project name="platform/packages/modules/Wifi" />
   <remove-project name="platform/packages/providers/MediaProvider" />
+  <remove-project name="platform/packages/providers/DownloadProvider" />
   <remove-project name="platform/packages/services/Telecomm" />
   <remove-project name="platform/packages/services/Telephony" />
 
@@ -129,6 +130,7 @@
   <remove-project name="platform/system/logging" />
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
 
   <!-- Vendor -->
