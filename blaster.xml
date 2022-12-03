@@ -36,6 +36,7 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="blaster" caf="platform/external/arm-optimized-routines"/>
+  <project path="external/faceunlock" name="external_faceunlock" remote="blaster-gitlab" />
   <project path="external/fastrpc" name="external_fastrpc" remote="blaster" caf="platform/external/fastrpc" />
   <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="blaster" caf="platform/external/libjpeg-turbo" />
   <project path="external/rust/crates/ring" name="external_rust_crates_ring" remote="blaster" caf="platform/external/rust/crates/ring"/>
@@ -67,6 +68,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/DesktopMode" name="packages_apps_DesktopMode" remote="blaster" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="blaster" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaster" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaster" caf="platform/packages/apps/Launcher3" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaster" caf="platform/packages/apps/Settings"/>
