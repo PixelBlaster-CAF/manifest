@@ -48,9 +48,11 @@
   <!-- External -->
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/fastrpc" />
+  <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libjpeg-turbo" />
   <remove-project name="platform/external/rust/crates/ring" />
   <remove-project name="platform/external/rust/cxx" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/zlib" />
