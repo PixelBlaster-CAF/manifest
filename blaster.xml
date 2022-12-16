@@ -73,6 +73,7 @@
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="blaster" />
   <project path="packages/apps/GameSpace" name="packages_apps_GameSpace" remote="blaster" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="blaster" caf="platform/packages/apps/Launcher3" />
+  <project path="packages/apps/ParallelSpace" name="packages_apps_ParallelSpace" remote="blaster" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="blaster" caf="platform/packages/apps/Settings"/>
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="blaster" caf="platform/packages/apps/Stk" />
   <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker" remote="blaster" caf="platform/packages/apps/ThemePicker" />
