@@ -35,6 +35,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/aac" name="external_aac" remote="blaster" caf="platform/external/aac" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="blaster" caf="platform/external/arm-optimized-routines"/>
   <project path="external/faceunlock" name="external_faceunlock" remote="blaster-gitlab" />
   <project path="external/fastrpc" name="external_fastrpc" remote="blaster" caf="platform/external/fastrpc" />

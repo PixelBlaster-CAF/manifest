@@ -46,6 +46,7 @@
   <remove-project name="device/sample"/>
 
   <!-- External -->
+  <remove-project name="platform/external/aac" />
   <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/fastrpc" />
   <remove-project name="platform/external/gptfdisk" />
